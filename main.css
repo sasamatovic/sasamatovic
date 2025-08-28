@@ -59,6 +59,13 @@ section {
 	color: #A4A4A4;
 	font-size: .875rem;
 }
+.year {
+	color: #fff;
+	font-size: .625rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-bottom: -15px;
+}
 .contact {
 	color: #A4A4A4;
 	font-size: .875rem;
@@ -66,13 +73,7 @@ section {
 	margin-bottom: 6px;
 	margin-top: 6px;
 }
-.read-cv {
-	color: #fff;
-	font-size: .625rem;
-	text-transform: uppercase;
-	text-decoration: underline;
-	font-weight: 300;
-}
+
 @media only screen and (max-width: 579px) {
 	.wrapper {
 		max-width: 90%;
