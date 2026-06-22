@@ -1,59 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Saša Matović | UX / Product Designer</title>
-	<meta name="description" content="I’m a UX / Product Designer based in Belgrade, Serbia. I have ~10 years of experience in designing B2B / Enterprise software.">
-	<link rel="shortcut icon" href="img/favicon.png">
-	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
-  	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
-  	<link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png">
-  	<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
-  	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-  	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
-  	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-  	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="UX / Product Designer based in Belgrade, Serbia, with 10+ years of experience designing B2B and enterprise software.">
 	<meta name="author" content="Sasa Matovic">
 	<meta name="robots" content="index, follow">
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="main.css">
+	<meta name="theme-color" content="#20282B">
+
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Saša Matović | UX / Product Designer">
+	<meta property="og:description" content="UX / Product Designer based in Belgrade, Serbia, with 10+ years of experience designing B2B and enterprise software.">
+
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Inter:300,500&display=swap" rel="stylesheet">
-</head>
-<body class="wrapper">
-	<header>
-		<h1>Saša Matović</h1>
-		<h3>UX / Product Designer</h3>
-	</header>
-	<section>
-		<p>Hello, I am Saša!
-		<br>
-		<br>
-		I’m a UX / Product Designer based in Belgrade, Serbia. I have ~10 years of experience in designing B2B / Enterprise software.
-		</p>
-	</section>
-	<section>
-		<h2>Work Experience:</h2>
-		<p class="year">[Aug 2025 - ]</p>
-		<p class="position">Senior UX Design Specialist at SAP</p>
-		<p class="year">[Jun 2021 - Jul 2025]</p>
-		<p class="position">Senior UX Designer at FIS</p>
-		<p class="year">[Apr 2019 - Jun 2021]</p>
-		<p class="position">UX Design Specialist at SAP</p>
-		<p class="year">[Nov 2015 - Mar 2019]</p>
-		<p class="position">UX Designer at Wireless Media</p>
-	</section>
-	<section class="contact-section">
-		<h2>Contact:</h2>
-		<a class="contact" href="https://www.linkedin.com/in/sasamatovic/" target="_blank">Linkedin</a>
-		<br>
-		<a class="contact" href="mailto:ssmtvc@gmail.com">Email</a>
-	</section>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="site-header">
+			<h1>Saša Matović</h1>
+			<p class="tagline">UX / Product Designer</p>
+		</header>
+
+		<main>
+			<section class="intro">
+				<p>Hello, I’m Saša.</p>
+				<p>I’m a UX / Product Designer based in Belgrade, Serbia, with 10+ years of experience designing B2B and enterprise software.</p>
+			</section>
+
+			<section class="experience" aria-labelledby="experience-heading">
+				<h2 id="experience-heading">Work Experience:</h2>
+				<dl class="timeline">
+					<div class="role">
+						<dt class="year">[Aug 2025 - Present]</dt>
+						<dd class="position">Senior UX Design Specialist at SAP</dd>
+					</div>
+					<div class="role">
+						<dt class="year">[Jun 2021 - Jul 2025]</dt>
+						<dd class="position">Senior UX Designer at FIS</dd>
+					</div>
+					<div class="role">
+						<dt class="year">[Apr 2019 - Jun 2021]</dt>
+						<dd class="position">UX Design Specialist at SAP</dd>
+					</div>
+					<div class="role">
+						<dt class="year">[Nov 2015 - Mar 2019]</dt>
+						<dd class="position">UX Designer at Wireless Media</dd>
+					</div>
+				</dl>
+			</section>
+
+			<section class="contact-section" aria-labelledby="contact-heading">
+				<h2 id="contact-heading">Contact:</h2>
+				<ul class="contact-list">
+					<li><a class="contact" href="https://www.linkedin.com/in/sasamatovic/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+					<li><a class="contact" href="mailto:ssmtvc@gmail.com">Email</a></li>
+				</ul>
+			</section>
+		</main>
+	</div>
 </body>
 </html>
